@@ -1,0 +1,68 @@
+.form-group{
+    position: relative;
+}
+
+.form-group i{
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    font-size:20px;
+    visibility: hidden;
+
+
+}
+
+.form-group.success .fa-check-circle{
+      color: rgb(8, 197, 8);
+      visibility:visible;
+
+}
+.form-group.error .fa-exclamation-circle{
+    color: red;
+    visibility:visible;
+
+
+}
+.form-group small{
+    color:red;
+    font-weight:bold;
+}
+.errorborder{
+    border:1.5px solid red;
+}
+.successborder{
+    border:1.5px solid rgb(8, 197, 8);
+    
+}
+
+.contactformwrap div i,  .nth-last-child div i{
+    position: absolute;
+    top: 28%;
+    right: 30px;
+    font-size:20px;
+    visibility: hidden;
+
+
+}
+.nth-last-child div i{
+    right: 50px;
+
+}
+
+.contactformwrap div.success .fa-check-circle, .nth-last-child div.success .fa-check-circle{
+    color: rgb(8, 197, 8);
+    visibility:visible;
+
+}
+.contactformwrap div.error  .fa-exclamation-circle, .nth-last-child div.error .fa-exclamation-circle{
+
+    color: red;
+    visibility:visible;
+
+}
+
+
+.contactformwrap div small, .nth-last-child div small{
+    color:red;
+    font-weight:bold;
+}

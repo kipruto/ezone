@@ -1,0 +1,22 @@
+.adminloginhold{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}.adminlogin{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 5%  auto;
+    height: 40%;
+
+}
+#adminresponse{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    color:red;
+    font-weight: bold;
+}

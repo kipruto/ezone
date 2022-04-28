@@ -1,0 +1,2089 @@
+/* large desktop :1366px. */
+
+
+.whole-form{
+
+    height: 750px;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+
+    font-family: "Port Lligat Sans" !important;
+
+
+}
+
+
+
+.login-form{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 60%;
+    height: 90%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 4px 1px rgba(115,115,115,1);
+
+
+
+}
+
+.image-section{
+    display: flex;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: url(../img/fruit.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+}
+
+.input-section{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    height: 100%;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin: 0px auto;
+
+    position: relative;
+
+}
+
+.input-fields{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 50%;
+
+    height: 60%;
+
+
+}
+.input-fields.signupp{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 50%;
+
+    height: 80%;
+}
+
+.input-fields h2{
+
+font-size: 30px;
+
+font-weight: bold;
+
+margin: 0px;
+
+color: rgb(0, 165, 14);
+
+}
+
+.input-fields h2::after, .input-fields h1::after  {
+
+    width: 100px;
+
+    height: 8px;
+
+    background: #ff880e;
+
+    content: "";
+
+    display: block;
+
+    transform: skew(-30deg);
+
+    margin-top: 3px;
+
+}
+
+.input-fields h1{
+
+    font-size: 30px;
+
+     margin: 30px  0px;
+
+    font-weight: bold;
+
+    color: rgb(0, 165, 14);
+
+    }
+
+.inputemail, .inputpassword, .inputrepeatpwd{
+
+    display: flex;
+
+    align-items: center;
+
+    margin: 10px auto;
+
+    margin-bottom: 15px;
+
+    width: 100%;
+
+    padding: 13px 16px;
+
+    border-radius: 8px;
+
+    border: 2px solid rgb(175, 175, 175);
+
+    outline: none;
+
+    overflow: visible;
+
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.holdtoggle{
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+#togglepassword{
+
+    position: absolute;
+
+    top: 35%;
+
+    right: 5%;
+
+    color: rgba(170, 170, 170, 0.575);
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    background-color: white;
+
+}
+
+input::placeholder{
+
+    color: rgb(90, 90, 90);
+
+    font-size: 16px;
+
+}
+
+label{
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.loginbbtn, .signupbtn{
+   position: absolute;
+   bottom: 15%;
+
+    background-color: rgb(91, 165, 42);
+
+    color: white;
+
+    outline: none;
+
+    border: none;
+    border-radius: 30px;
+
+ height: 45px;
+width: 130px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: block;
+
+}
+.loginbbtn{
+   bottom: 20%;
+
+}
+
+.rememberdiv{
+
+    display: flex;
+
+    width: 90%;
+
+    height: 30px;
+
+    margin-top: 10px;
+
+    margin-left: 0;
+
+}
+
+.rememberdiv span{
+
+    width: 100%;
+
+    height: 20px;
+
+    padding: 0;
+
+    margin: 0;
+
+    display: inline-flex;
+
+
+
+}
+
+.rememberdiv span p{
+
+    font-size: 11px;
+
+    color: rgb(0, 0, 0);
+
+    margin-left: 10px;
+
+    margin-bottom: 0;
+    line-height: normal;
+
+
+
+}
+
+.rememberme{
+
+    padding: 0 !important;
+
+    margin: 0 !important;
+
+    height: 20px !important;
+
+    width: 20px !important;
+
+    border: 0.5px solid black;
+
+
+
+}
+
+.rememberdiv a{
+
+text-decoration: none;
+
+font-size: 12px;
+
+color: rgb(0, 151, 50);
+
+padding: 0;
+
+margin: 0;
+
+font-weight: bold;
+
+}
+
+
+
+
+
+/* copyright section */
+
+
+
+.copyright-sec{
+
+    width: 100%;
+
+    height: 80px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.copygrid{
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+
+
+}
+
+.copygrid p{
+
+    margin: 0;
+
+}
+
+.social-icons{
+
+    display: inline-flex;
+
+    margin-left: 10px;
+
+}
+
+.social-icons i{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-right: 10px;
+
+    font-size: 14px;
+
+    padding: 6px 8px;
+
+    border: 1px solid rgb(31, 31, 31);
+
+    cursor: pointer;
+
+
+
+}
+
+.social-icons i:hover{
+
+    background-color: rgb(235, 235, 235);
+
+
+
+}
+
+.social-icons i:nth-child(1){
+
+    color: rgb(0, 132, 255);
+
+
+
+
+
+}
+
+.social-icons i:nth-child(2){
+
+    color: rgb(255, 0, 149);
+
+
+
+
+
+}
+
+.social-icons i:nth-child(3){
+
+    color: rgb(0, 198, 233);
+
+    
+
+
+
+}
+
+.last-section{
+    position:absolute;
+    display: grid;
+       bottom: 10px;
+    grid-template-columns: 1fr 1fr;
+
+    width: 100%;
+
+    height: 100px;
+
+}
+
+.reset-password, .back-to-login{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+color: purple;
+
+}
+
+.reset-password a, .back-to-login a{ 
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    font-size: 14px;
+
+    color: green;
+
+
+
+}
+
+.reset-password a:hover, .back-to-login a:hover{
+
+color: rgb(245, 139, 0);
+
+text-decoration: none;
+
+font-weight: bold;
+
+}
+
+
+
+.last-section svg{
+
+    width: 50px;
+
+}
+
+.signupbtn:hover{
+
+    background-color: white;
+
+    border: 1px solid green;
+
+    color: green;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+#serverResponse li{
+
+    display:flex;
+    flex-direction: column;
+   margin: 0px auto;
+    width: 100%;
+    height: 20%;
+
+    background-color: rgb(253, 253, 253);
+
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+
+
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .whole-form{
+
+        height: 750px;
+    
+        width: 100%;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        background-color: rgb(255, 255, 255);
+    
+        font-family: "Port Lligat Sans" !important;
+    
+    
+    }
+    
+    
+    
+    .login-form{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        height: 90%;
+        margin: 0px auto;
+        box-shadow: 0px 0px 4px 1px rgba(115,115,115,1);
+    
+    
+    
+    }
+    
+    .image-section{
+        display: none;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        background: url(../img/fruit.jpg);
+    
+        background-size: cover;
+    
+        background-position: center;
+    
+        background-repeat: no-repeat;
+    }
+    
+    .input-section{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        margin: 0px auto;
+    
+        position: relative;
+    
+    }
+    
+    .input-fields{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 50%;
+    
+        height: 60%;
+    
+    
+    }
+    .input-fields.signupp{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 50%;
+    
+        height: 80%;
+    }
+    
+    .input-fields h2{
+    
+    font-size: 30px;
+    
+    font-weight: bold;
+    
+    margin: 0px;
+    
+    color: rgb(0, 165, 14);
+    
+    }
+    
+    .input-fields h2::after, .input-fields h1::after  {
+    
+        width: 150px;
+    
+        height: 8px;
+    
+        background: #ff880e;
+    
+        content: "";
+    
+        display: block;
+    
+        transform: skew(-30deg);
+    
+        margin-top: 3px;
+    
+    }
+    
+    .input-fields h1{
+    
+        font-size: 30px;
+    
+         margin: 30px  0px;
+    
+        font-weight: bold;
+    
+        color: rgb(0, 165, 14);
+    
+        }
+    
+    .inputemail, .inputpassword, .inputrepeatpwd{
+    
+        display: flex;
+    
+        align-items: center;
+    
+        margin: 10px auto;
+    
+        margin-bottom: 15px;
+    
+        width: 100%;
+    
+        padding: 13px 16px;
+    
+        border-radius: 8px;
+    
+        border: 2px solid rgb(175, 175, 175);
+    
+        outline: none;
+    
+        overflow: visible;
+    
+        background-color: rgb(255, 255, 255);
+    
+    
+    
+    }
+    
+    .holdtoggle{
+    
+        position: relative;
+    
+        width: 100%;
+    
+    }
+    
+    #togglepassword{
+    
+        position: absolute;
+    
+        top: 35%;
+    
+        right: 5%;
+    
+        color: rgba(170, 170, 170, 0.575);
+    
+        font-size: 17px;
+    
+        cursor: pointer;
+    
+        background-color: white;
+    
+    }
+    
+    input::placeholder{
+    
+        color: rgb(90, 90, 90);
+    
+        font-size: 16px;
+    
+    }
+    
+    label{
+    
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    
+    .loginbbtn, .signupbtn{
+       position: absolute;
+       bottom: 15%;
+    
+        background-color: rgb(91, 165, 42);
+    
+        color: white;
+    
+        outline: none;
+    
+        border: none;
+        border-radius: 30px;
+    
+     height: 45px;
+    width: 130px;
+    
+        font-weight: bold;
+    
+        cursor: pointer;
+    
+        display: block;
+    
+    }
+    .loginbbtn{
+       bottom: 20%;
+    
+    }
+    
+    .rememberdiv{
+    
+        display: flex;
+    
+        width: 90%;
+    
+        height: 30px;
+    
+        margin-top: 10px;
+    
+        margin-left: 0;
+    
+    }
+    
+    .rememberdiv span{
+    
+        width: 100%;
+    
+        height: 20px;
+    
+        padding: 0;
+    
+        margin: 0;
+    
+        display: inline-flex;
+    
+    
+    
+    }
+    
+    .rememberdiv span p{
+    
+        font-size: 11px;
+    
+        color: rgb(0, 0, 0);
+    
+        margin-left: 10px;
+    
+        margin-bottom: 0;
+    
+        line-height: 1.2rem;
+    
+    
+    
+    }
+    
+    .rememberme{
+    
+        padding: 0 !important;
+    
+        margin: 0 !important;
+    
+        height: 20px !important;
+    
+        width: 20px !important;
+    
+        border: 0.5px solid black;
+    
+    
+    
+    }
+    
+    .rememberdiv a{
+    
+    text-decoration: none;
+    
+    font-size: 12px;
+    
+    color: rgb(0, 151, 50);
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    
+    
+    /* copyright section */
+    
+    
+    
+    .copyright-sec{
+    
+        width: 100%;
+    
+        height: 80px;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+    }
+    
+    .copygrid{
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        align-items: center;
+    
+    
+    
+    }
+    
+    .copygrid p{
+    
+        margin: 0;
+    
+    }
+    
+    .social-icons{
+    
+        display: inline-flex;
+    
+        margin-left: 10px;
+    
+    }
+    
+    .social-icons i{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        margin-right: 10px;
+    
+        font-size: 14px;
+    
+        padding: 6px 8px;
+    
+        border: 1px solid rgb(31, 31, 31);
+    
+        cursor: pointer;
+    
+    
+    
+    }
+    
+    .social-icons i:hover{
+    
+        background-color: rgb(235, 235, 235);
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(1){
+    
+        color: rgb(0, 132, 255);
+    
+    
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(2){
+    
+        color: rgb(255, 0, 149);
+    
+    
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(3){
+    
+        color: rgb(0, 198, 233);
+    
+        
+    
+    
+    
+    }
+    
+    .last-section{
+        position:absolute;
+        display: grid;
+           bottom: 10px;
+        grid-template-columns: 1fr 1fr;
+    
+        width: 100%;
+    
+        height: 100px;
+    
+    }
+    
+    .reset-password, .back-to-login{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 100%;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        text-decoration: none;
+    
+    color: purple;
+    
+    }
+    
+    .reset-password a, .back-to-login a{ 
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        align-items: center;
+    
+        font-size: 14px;
+    
+        color: green;
+    
+    
+    
+    }
+    
+    .reset-password a:hover, .back-to-login a:hover{
+    
+    color: rgb(245, 139, 0);
+    
+    text-decoration: none;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    .last-section svg{
+    
+        width: 50px;
+    
+    }
+    
+    .signupbtn:hover{
+    
+        background-color: white;
+    
+        border: 1px solid green;
+    
+        color: green;
+    
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    
+    }
+    
+    #serverResponse li{
+    
+        display:block;
+    
+        width: 200px;
+    
+        height: 40px;
+    
+        background-color: rgb(253, 253, 253);
+    
+        color: rgb(221, 0, 0);
+    
+    }
+    
+
+}
+
+
+
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+
+
+    .whole-form{
+
+        height: 650px;
+    
+        width: 100%;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        background-color: rgb(255, 255, 255);
+    
+        font-family: "Port Lligat Sans" !important;
+    
+    
+    }
+    
+    
+    
+    .login-form{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+        height: 90%;
+        margin: 0px auto;
+       
+    
+    
+    }
+    
+    .image-section{
+        display: none;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        background: url(../img/fruit.jpg);
+    
+        background-size: cover;
+    
+        background-position: center;
+    
+        background-repeat: no-repeat;
+    }
+    
+    .input-section{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        margin: 0px auto;
+    
+        position: relative;
+    
+    }
+    
+    .input-fields{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 70%;
+    
+        height: 100%;
+    
+    
+    }
+    .input-fields.signupp{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 70%;
+    
+        height: 100%;
+    }
+    
+    
+    .input-fields h2::after, .input-fields h1::after  {
+    
+        width: 80px;
+    
+        height: 8px;
+    
+        background: #ff880e;
+    
+        content: "";
+    
+        display: block;
+    
+        transform: skew(-30deg);
+    
+        margin-top: 3px;
+    
+    }
+    
+    .input-fields h1{
+    
+        font-size: 22px;
+    
+         margin: 30px  0px;
+    
+        font-weight: bold;
+    
+        color: rgb(0, 165, 14);
+    
+        }
+    
+    .inputemail, .inputpassword, .inputrepeatpwd{
+    
+        display: flex;
+        font-size: 12px;
+    
+        align-items: center;
+    
+        margin: 10px auto;
+    
+        margin-bottom: 15px;
+    
+        width: 100%;
+    
+        padding: 4px 10px;
+    
+        border-radius: 8px;
+    
+        border: 1px solid rgb(175, 175, 175);
+    
+        outline: none;
+    
+        overflow: visible;
+    
+        background-color: rgb(255, 255, 255);
+    
+    
+    
+    }
+    
+    .holdtoggle{
+    
+        position: relative;
+    
+        width: 100%;
+    
+    }
+    
+    #togglepassword{
+    
+        position: absolute;
+    
+        top: 35%;
+    
+        right: 5%;
+    
+        color: rgba(170, 170, 170, 0.575);
+    
+        font-size: 17px;
+    
+        cursor: pointer;
+    
+        background-color: white;
+    
+    }
+    
+    input::placeholder{
+    
+        color: rgb(90, 90, 90);
+    
+        font-size: 12px;
+    
+    }
+    
+    label{
+    
+        font-size: 15px;
+        font-weight: bold;
+    
+    }
+    
+    .loginbbtn, .signupbtn{
+       position: absolute;
+       bottom: 15%;
+    
+        background-color: rgb(91, 165, 42);
+    
+        color: white;
+    
+        outline: none;
+    
+        border: none;
+        border-radius: 30px;
+    
+     height: 40px;
+    width: 100px;
+    
+        font-weight: bold;
+    
+        cursor: pointer;
+    
+        display: block;
+    
+    }
+    .loginbbtn{
+       bottom: 30%;
+    
+    }
+    
+    .rememberdiv{
+    
+        display: flex;
+    
+        width: 90%;
+    
+        height: 30px;
+    
+    
+        margin-left: 0;
+    
+    }
+    
+    .rememberdiv span{
+    
+        width: 100%;
+        align-items: center;
+    
+        height: 20px;
+    
+        padding: 0;
+    
+        margin: 0;
+    
+        display: inline-flex;
+    
+    
+    
+    }
+    
+    .rememberdiv span p{
+    
+        font-size: 10px;
+    
+        color: rgb(0, 0, 0);
+    
+        margin-left: 10px;
+        margin-bottom: 0;
+        line-height: normal;
+    
+    
+    
+    }
+    
+    .rememberme{
+    
+        padding: 0 !important;
+    
+        margin: 0 !important;
+    
+        height: 20px !important;
+    
+        width: 15px !important;
+    
+        border: 0.5px solid black;
+    
+    
+    
+    }
+    
+    .rememberdiv a{
+    
+    text-decoration: none;
+    
+    font-size: 12px;
+    
+    color: rgb(0, 151, 50);
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    
+    
+    /* copyright section */
+    
+    
+    
+    .copyright-sec{
+    
+        width: 100%;
+    
+        height: 80px;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+    }
+    
+    .copygrid{
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        align-items: center;
+    
+    
+    
+    }
+    
+    .copygrid p{
+    
+        margin: 0;
+    
+    }
+    
+    .social-icons{
+    
+        display: inline-flex;
+    
+        margin-left: 10px;
+    
+    }
+    
+    .social-icons i{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        margin-right: 10px;
+    
+        font-size: 14px;
+    
+        padding: 6px 8px;
+    
+        border: 1px solid rgb(31, 31, 31);
+    
+        cursor: pointer;
+    
+    
+    
+    }
+    
+    .social-icons i:hover{
+    
+        background-color: rgb(235, 235, 235);
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(1){
+    
+        color: rgb(0, 132, 255);
+    
+    
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(2){
+    
+        color: rgb(255, 0, 149);
+    
+    
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(3){
+    
+        color: rgb(0, 198, 233);
+    
+        
+    
+    
+    
+    }
+    
+    .last-section{
+        position:absolute;
+        display: grid;
+           bottom: 10px;
+        grid-template-columns: 1fr 1fr;
+    
+        width: 100%;
+    
+        height: 100px;
+    
+    }
+    
+    .reset-password, .back-to-login{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 100%;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        text-decoration: none;
+    
+    color: purple;
+    
+    }
+    
+    .reset-password a, .back-to-login a{ 
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        align-items: center;
+    
+        font-size: 10px;
+    
+        color: green;
+    
+    
+    
+    }
+    
+    .reset-password a:hover, .back-to-login a:hover{
+    
+    color: rgb(245, 139, 0);
+    
+    text-decoration: none;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    .last-section svg{
+    
+        width: 50px;
+    
+    }
+    
+    .signupbtn:hover{
+    
+        background-color: white;
+    
+        border: 1px solid green;
+    
+        color: green;
+    
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    
+    }
+    
+    #serverResponse li{
+    
+        display:block;
+    
+        width: 200px;
+    
+        height: 40px;
+    
+        background-color: rgb(253, 253, 253);
+    
+        color: rgb(221, 0, 0);
+    
+    }
+    
+
+}
+
+
+
+
+/* Bigger Smartphones :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .whole-form{
+
+        height: 750px;
+    
+        width: 100%;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        background-color: rgb(255, 255, 255);
+    
+        font-family: "Port Lligat Sans" !important;
+    
+    
+    }
+    
+    
+    
+    .login-form{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        height: 90%;
+        margin: 0px auto;
+        box-shadow: 0px 0px 4px 1px rgba(115,115,115,1);
+    
+    
+    
+    }
+    
+    .image-section{
+        display: none;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        background: url(../img/fruit.jpg);
+    
+        background-size: cover;
+    
+        background-position: center;
+    
+        background-repeat: no-repeat;
+    }
+    
+    .input-section{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 100%;
+    
+        height: 100%;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        margin: 0px auto;
+    
+        position: relative;
+    
+    }
+    
+    .input-fields{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 70%;
+    
+        height: 60%;
+    
+    
+    }
+    .input-fields.signupp{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 70%;
+    
+        height: 80%;
+    }
+    
+    .input-fields h2{
+    
+    font-size: 30px;
+    
+    font-weight: bold;
+    
+    margin: 0px;
+    
+    color: rgb(0, 165, 14);
+    
+    }
+    
+    .input-fields h2::after, .input-fields h1::after  {
+    
+        width: 150px;
+    
+        height: 8px;
+    
+        background: #ff880e;
+    
+        content: "";
+    
+        display: block;
+    
+        transform: skew(-30deg);
+    
+        margin-top: 3px;
+    
+    }
+    
+    .input-fields h1{
+    
+        font-size: 30px;
+    
+         margin: 30px  0px;
+    
+        font-weight: bold;
+    
+        color: rgb(0, 165, 14);
+    
+        }
+    
+    .inputemail, .inputpassword, .inputrepeatpwd{
+    
+        display: flex;
+    
+        align-items: center;
+    
+        margin: 10px auto;
+    
+        margin-bottom: 15px;
+    
+        width: 100%;
+    
+        padding: 13px 16px;
+    
+        border-radius: 8px;
+    
+        border: 2px solid rgb(175, 175, 175);
+    
+        outline: none;
+    
+        overflow: visible;
+    
+        background-color: rgb(255, 255, 255);
+    
+    
+    
+    }
+    
+    .holdtoggle{
+    
+        position: relative;
+    
+        width: 100%;
+    
+    }
+    
+    #togglepassword{
+    
+        position: absolute;
+    
+        top: 35%;
+    
+        right: 5%;
+    
+        color: rgba(170, 170, 170, 0.575);
+    
+        font-size: 17px;
+    
+        cursor: pointer;
+    
+        background-color: white;
+    
+    }
+    
+    input::placeholder{
+    
+        color: rgb(90, 90, 90);
+    
+        font-size: 16px;
+    
+    }
+    
+    label{
+    
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    
+    .loginbbtn, .signupbtn{
+       position: absolute;
+       bottom: 15%;
+    
+        background-color: rgb(91, 165, 42);
+    
+        color: white;
+    
+        outline: none;
+    
+        border: none;
+        border-radius: 30px;
+    
+     height: 45px;
+    width: 130px;
+    
+        font-weight: bold;
+    
+        cursor: pointer;
+    
+        display: block;
+    
+    }
+    .loginbbtn{
+       bottom: 20%;
+    
+    }
+    
+    .rememberdiv{
+    
+        display: flex;
+    
+        width: 90%;
+    
+        height: 30px;
+    
+        margin-top: 10px;
+    
+        margin-left: 0;
+    
+    }
+    
+    .rememberdiv span{
+    
+        width: 100%;
+    
+        height: 20px;
+    
+        padding: 0;
+    
+        margin: 0;
+    
+        display: inline-flex;
+    
+    
+    
+    }
+    
+    .rememberdiv span p{
+    
+        font-size: 11px;
+    
+        color: rgb(0, 0, 0);
+    
+        margin-left: 10px;
+    
+        margin-bottom: 0;
+    
+        line-height: 1.2rem;
+    
+    
+    
+    }
+    
+    .rememberme{
+    
+        padding: 0 !important;
+    
+        margin: 0 !important;
+    
+        height: 20px !important;
+    
+        width: 20px !important;
+    
+        border: 0.5px solid black;
+    
+    
+    
+    }
+    
+    .rememberdiv a{
+    
+    text-decoration: none;
+    
+    font-size: 12px;
+    
+    color: rgb(0, 151, 50);
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    
+    
+    /* copyright section */
+    
+    
+    
+    .copyright-sec{
+    
+        width: 100%;
+    
+        height: 80px;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+    }
+    
+    .copygrid{
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        align-items: center;
+    
+    
+    
+    }
+    
+    .copygrid p{
+    
+        margin: 0;
+    
+    }
+    
+    .social-icons{
+    
+        display: inline-flex;
+    
+        margin-left: 10px;
+    
+    }
+    
+    .social-icons i{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        margin-right: 10px;
+    
+        font-size: 14px;
+    
+        padding: 6px 8px;
+    
+        border: 1px solid rgb(31, 31, 31);
+    
+        cursor: pointer;
+    
+    
+    
+    }
+    
+    .social-icons i:hover{
+    
+        background-color: rgb(235, 235, 235);
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(1){
+    
+        color: rgb(0, 132, 255);
+    
+    
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(2){
+    
+        color: rgb(255, 0, 149);
+    
+    
+    
+    
+    
+    }
+    
+    .social-icons i:nth-child(3){
+    
+        color: rgb(0, 198, 233);
+    
+        
+    
+    
+    
+    }
+    
+    .last-section{
+        position:absolute;
+        display: grid;
+           bottom: 10px;
+        grid-template-columns: 1fr 1fr;
+    
+        width: 100%;
+    
+        height: 100px;
+    
+    }
+    
+    .reset-password, .back-to-login{
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        width: 100%;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        text-decoration: none;
+    
+    color: purple;
+    
+    }
+    
+    .reset-password a, .back-to-login a{ 
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        align-items: center;
+    
+        font-size: 14px;
+    
+        color: green;
+    
+    
+    
+    }
+    
+    .reset-password a:hover, .back-to-login a:hover{
+    
+    color: rgb(245, 139, 0);
+    
+    text-decoration: none;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    .last-section svg{
+    
+        width: 50px;
+    
+    }
+    
+    .signupbtn:hover{
+    
+        background-color: white;
+    
+        border: 1px solid green;
+    
+        color: green;
+    
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    
+    }
+    
+    #serverResponse li{
+    
+        display:block;
+    
+        width: 200px;
+    
+        height: 40px;
+    
+        background-color: rgb(253, 253, 253);
+    
+        color: rgb(221, 0, 0);
+    
+    }
+    
+
+}
+
+
+
+
+
+
